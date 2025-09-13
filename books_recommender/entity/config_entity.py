@@ -15,9 +15,9 @@ DataTransformationConfig = namedtuple("DataTransformationConfig", ["clean_data_f
 
 
 
-# ModelTrainerConfig = namedtuple("ModelTrainerConfig", ["transformed_data_file_dir",
-#                                                       "trained_model_dir",
-#                                                       "trained_model_name"])
+ModelTrainerConfig = namedtuple("ModelTrainerConfig", ["transformed_data_file_dir",
+                                                      "trained_model_dir",
+                                                      "trained_model_name"])
 
 
 
